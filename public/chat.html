@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      
+      integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>T - Mail</title>
+  </head>
+  <body>
+    <div class="chat-container">
+      <header class="chat-header">
+        <h1><i class=""></i>OurSpace</h1>
+        <a id="leave-btn" class="btn" style="color:lightgreen;" >Leave</a>
+<div
+  style="background:https://loading.io/asset/531544">
+
+		
+      </header>
+      <main class="chat-main">
+
+        
+        </div>
+        <div class="chat-messages"></div>
+      </main>
+      <div class="chat-form-container">
+        <form id="chat-form" class="bottomAlign">
+          <input
+            id="msg"
+            
+            type="text"
+            placeholder="Enter message.."
+            required
+            autocomplete="off"
+          />
+          <button class="btn" style="color:lightgreen;"><i class="fas fa-paper-plane" style="color:lightgreen;"></i> Send</button>
+		</form>
+</div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.9.2/qs.min.js"
+      integrity="sha256-TDxXjkAUay70ae/QJBEpGKkpVslXaHHayklIVglFRT4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
