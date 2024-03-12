@@ -157,6 +157,5 @@ client.login(process.env.DISCORD_TOKEN);
            //     end      //
 //========= DISCORD BOT ============//
 
-//contact: Tac Shadow#5920
-//server:  https://dsc.gg/tacticalshadow
+//contact: silver17shadow
 //DM me if you are facing any bugs, or want a feature request. I'll even respond to a good morning :]
